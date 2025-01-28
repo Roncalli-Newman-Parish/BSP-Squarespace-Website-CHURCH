@@ -1,0 +1,239 @@
+/*
+==================================
+Date and Author
+==================================
+Last Updated: 12/18/2024
+Last Updated By: Andrew Krause
+
+==================================
+About the CSS in this File:
+==================================
+There is a Google Chrome extension called "Squarespace ID Finder" that can be used to obtain the ids
+of objects that exist on the Squarespace website you are working with. These ids can be targeted using
+the custom CSS in this file to modify the styling attributes of those objects.
+
+==================================
+Custom Fonts:
+==================================
+Using the following custom fonts below. The font family files were uploaded to this Squarespace website using the "Custom Files" dropdown:
+- Georgia
+- Montserrat Regular
+
+==================================
+Figma Design:
+==================================
+https://www.figma.com/design/ehl96RnE8Ms9BxFtbaK63g/BSP-site?node-id=0-1&node-type=canvas
+
+==================================
+Typefaces:
+==================================
+- Georgia bold italic for titles.
+- Montserrat regular for body copy.
+
+==================================
+Image Sources:
+==================================
+For each image website listed below, search for "Catholic Art" on that site.
+
+- https://unsplash.com
+- https://www.pexels.com
+*/
+
+/*
+h1 = Heading 1
+h2 = Heading 2
+h3 = Heading 3
+h4 = Heading 4 - 
+p = All Paragraph fonts
+p.sqsrte-large = Paragraph 1 / Large Paragraph 
+p.sqsrte-small = Paragraph 3 / Small Paragraph 
+*/
+
+/*
+Custom Georgia Font.
+*/
+@font-face {
+    font-family: 'georgia';
+    src: url(https://static1.squarespace.com/static/6729b0f806e50148856a98b4/t/675a73f9f345d028f42feaaf/1733981177471/Georgia+Bold+Italic.ttf);
+}
+
+/*
+Add the Georgia font to headings.
+*/
+h1, h2, h3, h4 {
+    font-family: 'georgia';
+}
+
+/*
+Make the links be the 'georgia' font family on the Sacraments
+page of the website.
+*/
+section[data-section-id="673ad2e30403965416dbb2b2"] a {
+    font-family: 'georgia';
+}
+
+/*
+Make the links be the 'georgia' font family on the Ministries
+page of the website.
+*/
+section[data-section-id="673fe4f99850975bbb0ffa96"] a {
+    font-family: 'georgia';
+}
+
+/*
+Make the links be the 'georgia' font family on the Events
+page of the website.
+*/
+section[data-section-id="6736e1b94ee37d655e6cc3e1"] a.eventlist-title-link {
+    font-family: 'georgia';
+}
+
+/*
+Custom Montserrat Font.
+*/
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url(https://static1.squarespace.com/static/6729b0f806e50148856a98b4/t/675a73ec4890be0f8513dc68/1733981164696/Montserrat-Regular.ttf);
+}
+
+/*
+Add the Montserrat font to body text.
+*/
+p, p.sqsrte-small, p.sqsrte-large, a, a.btn {
+    font-family: 'montserrat-regular';
+}
+
+/*
+start Plugin Lightbox - Custom Styles
+*/
+html .c-lightbox__content-inner {
+    margin-top: 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+main .sections:first-child .page-section:first-child {
+    padding-top: 0px;
+}
+/*
+end Plugin Lightbox - Custom Styles
+*/
+
+/*
+Add a download icon to each button that allows the
+user to download a form/file on the home page.
+*/
+#block-yui_3_17_2_1_1731304631674_116457 a:before,
+#block-e16fcd626897d6672c0f a:before,
+#block-yui_3_17_2_1_1731212363734_77657 a:before,
+#block-a798bc6d2f4be52f7996 a:before {
+    content: "\f019";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/*
+Add a file icon to another button on the top section
+of the home page.
+*/
+/* Comment out this for now. Do not think having this icon show up is useful.
+#block-ce6c2e2ea0566d2d60dd a:before {
+    content: "\f15b";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+*/
+
+/*
+Add a download icon to a button on the third section of
+the sacraments page.
+*/
+#block-yui_3_17_2_1_1731906622178_31150 a:before {
+    content: "\f019";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/*
+Add a download icon to a button on the ministry finance
+council page.
+*/
+#block-b72587a802f69c8755fc a:before {
+    content: "\f019";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/*
+Add a download icon to the each button that allows a user to download
+a form/file on the ministry substitute money (scrip) page.
+*/
+#block-462c89324354f7e6b5f0 a:before {
+    content: "\f019";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/*
+Add a open window icon to the second button on the ministry
+substitute money (scrip) page.
+*/
+#block-f35aa099f120c83025d0 a:before {
+    content: "\f08e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/*
+Add a download icon to each button that allows the user to
+download a form/file on the ministry women's club page.
+*/
+#block-817d271c1f231dee9cac a:before,
+#block-9f2d81d6bfe9cd017ead a:before,
+#block-3709821422c8b5c0b7d7 a:before,
+#block-c4cd2b7bd610552825c6 a:before,
+#block-3c5d5448c6f3bb139309 a:before,
+#block-4bc8b11fbc8c4accc9dd a:before,
+#block-cd1050fdfc5e39cb25a3 a:before {
+    content: "\f019";
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/*
+Change the line color for the Roncalli Newman section of
+the Mass Times page to white.
+*/
+#block-f8708b01b6d0e2fbef6b hr {
+    border-top: 1px solid white;
+}
+
+/*
+Add a drop shadow to the footer so you can better
+distinguish it from the rest of the page.
+*/
+#footer-sections {
+    z-index: 9999 !important;
+    box-shadow: 0px 10px 20px black;
+}
