@@ -12,7 +12,7 @@ The Blessed Sacrament Parish (BSP) website was created using Squarespace and cus
 
 This project was created using Squarespace, a website builder. Therefore, the structure and design of the project can be changed by logging in to Blessed Sacrament Parish's [Squarespace](https://account.squarespace.com/) account and selecting the project from the main dashboard page. The login credentials for BSP's Squarespace account credentials can be requested from the main parish office or the <b>Development & Communications</b> parish office. Note that the parish must authorize you before they grant you access to the Squarespace account to view/edit the structure of the parish website.
 
-Read more about this project in the [Blessed Sacrament Parish Wiki](https://github.com/Andrew-EKrause/BSP-Squarespace-Website/wiki). Note that only users who have been granted access may read the Wiki.
+Read more about this project in the [Blessed Sacrament Parish Wiki](https://github.com/Roncalli-Newman-Parish/BSP-Squarespace-Website-CHURCH/wiki). Note that only users who have been granted access may read the Wiki.
 
 ###### Home Page of BSP
 <img width="1280" alt="BSP Home Page" src="https://github.com/user-attachments/assets/6bcd325e-5758-4246-8ea8-0b4ac122ce8a">
