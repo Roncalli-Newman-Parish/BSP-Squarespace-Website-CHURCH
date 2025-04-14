@@ -2,7 +2,7 @@
 ==================================
 Date and Author
 ==================================
-Last Updated: 12/18/2024
+Last Updated: 04/14/2025
 Last Updated By: Andrew Krause
 
 ==================================
@@ -43,7 +43,7 @@ For each image website listed below, search for "Catholic Art" on that site.
 h1 = Heading 1
 h2 = Heading 2
 h3 = Heading 3
-h4 = Heading 4 - 
+h4 = Heading 4
 p = All Paragraph fonts
 p.sqsrte-large = Paragraph 1 / Large Paragraph 
 p.sqsrte-small = Paragraph 3 / Small Paragraph 
@@ -65,24 +65,21 @@ h1, h2, h3, h4 {
 }
 
 /*
-Make the links be the 'georgia' font family on the Sacraments
-page of the website.
+Make the links be the 'georgia' font family on the Sacraments page of the website.
 */
 section[data-section-id="673ad2e30403965416dbb2b2"] a {
     font-family: 'georgia';
 }
 
 /*
-Make the links be the 'georgia' font family on the Ministries
-page of the website.
+Make the links be the 'georgia' font family on the Ministries page of the website.
 */
 section[data-section-id="673fe4f99850975bbb0ffa96"] a {
     font-family: 'georgia';
 }
 
 /*
-Make the links be the 'georgia' font family on the Events
-page of the website.
+Make the links be the 'georgia' font family on the Events page of the website.
 */
 section[data-section-id="6736e1b94ee37d655e6cc3e1"] a.eventlist-title-link {
     font-family: 'georgia';
@@ -120,8 +117,7 @@ end Plugin Lightbox - Custom Styles
 */
 
 /*
-Add a download icon to each button that allows the
-user to download a form/file on the home page.
+Add a download icon to each button that allows the user to download a form/file on the home page.
 */
 #block-yui_3_17_2_1_1731304631674_116457 a:before,
 #block-e16fcd626897d6672c0f a:before,
@@ -136,8 +132,7 @@ user to download a form/file on the home page.
 }
 
 /*
-Add a file icon to another button on the top section
-of the home page.
+Add a file icon to another button on the top section of the home page.
 */
 /* Comment out this for now. Do not think having this icon show up is useful.
 #block-ce6c2e2ea0566d2d60dd a:before {
@@ -151,8 +146,7 @@ of the home page.
 */
 
 /*
-Add a download icon to a button on the third section of
-the sacraments page.
+Add a download icon to a button on the third section of the sacraments page.
 */
 #block-yui_3_17_2_1_1731906622178_31150 a:before {
     content: "\f019";
@@ -164,8 +158,7 @@ the sacraments page.
 }
 
 /*
-Add a download icon to a button on the ministry finance
-council page.
+Add a download icon to a button on the ministry finance council page.
 */
 #block-b72587a802f69c8755fc a:before {
     content: "\f019";
@@ -177,8 +170,7 @@ council page.
 }
 
 /*
-Add a download icon to the each button that allows a user to download
-a form/file on the ministry substitute money (scrip) page.
+Add a download icon to the each button that allows a user to download a form/file on the ministry substitute money (scrip) page.
 */
 #block-462c89324354f7e6b5f0 a:before {
     content: "\f019";
@@ -190,8 +182,7 @@ a form/file on the ministry substitute money (scrip) page.
 }
 
 /*
-Add a open window icon to the second button on the ministry
-substitute money (scrip) page.
+Add a open window icon to the second button on the ministry substitute money (scrip) page.
 */
 #block-f35aa099f120c83025d0 a:before {
     content: "\f08e";
@@ -203,8 +194,7 @@ substitute money (scrip) page.
 }
 
 /*
-Add a download icon to each button that allows the user to
-download a form/file on the ministry women's club page.
+Add a download icon to each button that allows the user to download a form/file on the ministry women's club page.
 */
 #block-817d271c1f231dee9cac a:before,
 #block-9f2d81d6bfe9cd017ead a:before,
@@ -222,18 +212,15 @@ download a form/file on the ministry women's club page.
 }
 
 /*
-Change the line color for the Roncalli Newman section of
-the Mass Times page to white.
+Change the line color for the Roncalli Newman section of the Mass Times page to white.
 */
 #block-f8708b01b6d0e2fbef6b hr {
     border-top: 1px solid white;
 }
 
 /*
-Add a drop shadow to the footer so you can better
-distinguish it from the rest of the page.
+Add a border line to the footer so you can better distinguish it from the rest of the page.
 */
 #footer-sections {
-    z-index: 9999 !important;
-    box-shadow: 0px 10px 20px black;
+    border-top: 1px solid #e3e5e4;
 }
